@@ -1,0 +1,2 @@
+function formatRouteTree() {}
+export { formatRouteTree };
