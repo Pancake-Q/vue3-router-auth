@@ -5,4 +5,5 @@ export interface IRouter {
 	path: string;
 	link?: string; // 子路由
 	title: string;
+	children?: IRouter[];
 }

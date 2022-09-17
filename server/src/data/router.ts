@@ -34,17 +34,16 @@ const Router: IRouter[] = [
 	{
 		id: 5,
 		pid: 2,
-		path: 'operate',
+		path: 'add',
 		name: 'CourseAdd',
 		link: '/course/add',
 		title: '增加课程',
 	},
 	{
 		id: 6,
-		pid: 6,
-		path: 'operate',
+		pid: 0,
+		path: '/student',
 		name: 'Student',
-		link: '/student',
 		title: '学生管理',
 	},
 	{

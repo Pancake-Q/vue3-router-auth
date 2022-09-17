@@ -7,7 +7,7 @@ export interface IState {
 }
 
 export default {
-	uid: 1,
+	uid: 3,
 	hasAuth: false,
 	routeTree: [],
 };
