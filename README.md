@@ -34,3 +34,29 @@ Routing permissions 路由权限
    @types/node
    ts-node-dev
    typescript
+
+## client
+
+- router
+
+  - route addRoute 动态生成路由配置
+  - hasAuth 判断是否有权限
+
+- libs
+
+  - http axios 路由拦截
+  - utils routerTree 根据后端返回数据定义权限菜单
+
+- store
+  - actions 异步请求数据
+  - commit 指定 type 传参给 mutations
+  - mutations 修改 store 状态
+  - state 状态
+  - dispatch 派发类型事件
+
+## server
+
+> 暂时模拟数据库
+
+user 用户数据表
+router 权限路由表
